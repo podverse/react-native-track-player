@@ -1,6 +1,6 @@
 {
-  "name": "react-native-track-player",
-  "version": "1.2.0",
+  "name": "podverse-react-native-track-player",
+  "version": "1.2.1",
   "description": "A fully fledged audio module created for music apps",
   "contributors": [
     {
@@ -12,6 +12,12 @@
       "name": "Guilherme Chaguri",
       "email": "guichaguri@gmail.com",
       "url": "http://guichaguri.com"
+    },
+    {
+      "name": "Creon Creonopoulos"
+    },
+    {
+      "name": "Mitch Downey"
     }
   ],
   "keywords": [
@@ -32,10 +38,10 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-native-kit/react-native-track-player.git"
+    "url": "https://github.com/podverse/react-native-track-player.git"
   },
   "bugs": {
-    "url": "https://github.com/react-native-kit/react-native-track-player/issues"
+    "url": "https://github.com/podverse/react-native-track-player/issues"
   },
   "scripts": {
     "prepublishOnly": "git submodule update --init --recursive"
