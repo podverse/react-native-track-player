@@ -221,6 +221,7 @@ public class MusicManager implements OnAudioFocusChangeListener {
         bundle.putString("track", previous != null ? previous.id : null);
         bundle.putDouble("position", Utils.toSeconds(prevPos));
         service.emit(MusicEvents.PLAYBACK_QUEUE_ENDED, bundle);
+        service.emit(MusicEvents.PLAYBACK_TRACK_ENDED, bundle);
     }
 
     public void onMetadataReceived(String source, String title, String url, String artist, String album, String date, String genre) {
